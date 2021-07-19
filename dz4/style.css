@@ -1,0 +1,80 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+p {
+  padding-top: 20px;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+}
+
+div.card {
+  width: 650px;
+  height: 550px;
+  margin-left: 200px;
+
+  background-color: #0d5825;
+}
+
+.img1 {
+  background: no-repeat;
+  width: 150px;
+  transform: translateY(70%) translateX(70%) rotate(-20deg);
+}
+.img2 {
+  background: no-repeat;
+  width: 150px;
+  transform: translateY(70%) rotate(-10deg);
+}
+.img3 {
+  background: no-repeat;
+  width: 150px;
+  transform: translateY(80%) translateX(-70%) rotate(10deg);
+}
+
+.img1:hover {
+  transform: translateY(60%) translateX(70%) rotate(-20deg);
+}
+
+.img2:hover {
+  transform: translateY(60%) rotate(-10deg);
+}
+
+.img3:hover {
+  transform: translateY(70%) translateX(-70%) rotate(10deg);
+}
+
+.level2 {
+  margin-top: 50px;
+  height: 400px;
+  width: 400px;
+  background-color: white;
+}
+
+.red {
+  transform: translateY(130%) translateX(945%);
+  background: rgb(238, 122, 122);
+  width: 50px;
+  height: 50px;
+}
+.blue {
+  transform: translateY(100%) translateX(1000%);
+  background: rgb(104, 77, 177);
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 1;
+}
+
+.green {
+  transform: translateY(170%) translateX(1055%);
+  background: rgb(68, 184, 130);
+  width: 50px;
+  height: 50px;
+}

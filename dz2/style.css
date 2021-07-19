@@ -1,0 +1,43 @@
+a[href^="http"] {
+    color: red;
+}
+
+li:nth-child(4) {
+    background-color: green;
+}
+
+ul+p {
+    font-size: 26px;
+}
+
+
+#greycol {
+    color:grey;
+}
+
+.text-box div p {
+    color:red;
+}
+
+
+.yellow {
+    color: yellow;
+}
+
+.text-box p:nth-of-type(3) {
+    color: green; 
+}
+.text-box h3:nth-of-type(1) {
+    color:pink
+}
+
+.bg-box {
+    background-color: green ;
+    width: 1200px;
+    height: 600px;
+  
+    background:  url(../dz1/pole-zelen-trava-dom-derevya.jpg) center no-repeat;
+    background: url(../dz1/grass-png-images-pictures-transparent-28.png) 10% repeat-x bottom ;
+  
+
+}

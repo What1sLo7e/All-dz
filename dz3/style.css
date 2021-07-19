@@ -1,0 +1,26 @@
+.main  {
+    width: 350px;
+    height: 220px;
+    padding: 15px 10px 20px 10px ;
+    margin: 30px;
+    border: dashed red 2px;
+    background-color: green;
+}
+.block {
+    width: 700px;
+    text-align: justify;
+}
+
+.img1 {
+    float: left;
+    width: 30%;
+    height: 30%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.img2 {
+    float: right;
+    width: 20%;
+    height: 20%;
+    margin: 20px 0px 10px 20px ;
+}

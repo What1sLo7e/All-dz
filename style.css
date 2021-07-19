@@ -1,0 +1,42 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 16px;
+    line-height: 1;
+    margin: 0px;
+}
+
+#wrapper {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.container {
+    padding: 0 15px;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.nav-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+}
+
+.nav-list li {
+    float: left;
+}
+
+.nav-list li + li {
+    padding-left: 15px;
+}
